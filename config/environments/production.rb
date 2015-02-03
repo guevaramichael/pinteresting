@@ -82,7 +82,7 @@ Pinteresting::Application.configure do
   # Not to set this to your actual host
   config.action_mailer.default_url_options = { :host => 'directhomesource.com' }
 
-# Sets Paperclop to upload images to Amazon S3
+# Sets Paperclip to upload images to Amazon S3
 config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
